@@ -1,0 +1,18 @@
+service:
+    name: mytwitterbot
+
+plugins:
+    - serverless-plugin-typescript
+
+provider:
+    name: aws
+    region: us-west-2
+    stage: prod
+    runtime: nodejs8.10
+    
+functions:
+    tweet:
+        handler: handler.tweet
+        timeout: 120
+        events:
+            - schedule: rate(5 minutes)
