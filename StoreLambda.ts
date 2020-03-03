@@ -6,10 +6,10 @@ import { take } from 'ramda';
 const URL = 'https://docs.google.com/spreadsheets/d/1OZbJNVLZ9TMXs6wJgAJfXFUGvtq2ZICzl7Vyr-gEH_8/edit#gid=0';
 
 const T = new Twitter({
-    consumer_key: 'Q5YqR5BIguqmD9GTSGD4g4U7y',
-    consumer_secret: 'HmcKn9Ym5QCz9aejBXoxuFcfCsiqbU8Tp855gt1mQrMFAe5tUw',
-    access_token: '1176568093276958720-XkEr0OtKVfqdLZeIeG3KEGZsZXjRjG',
-    access_token_secret: 'QP3I9fxQ3AWxdB8k1VigCWjLJyqsJlnTKqfedR80mGVqz'
+    consumer_key: '--api-key--',
+    consumer_secret: '--api--secret--',
+    access_token: '--access-key--',
+    access_token_secret: '--access-token--'
 });
 
 // convert Google sheets date string to javascript Date object
